@@ -1,0 +1,40 @@
+div {
+  margin: 30px;
+  text-align: justify;
+}
+p {
+  font-size: 1.5rem;
+  max-width: 900px;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  body,
+  img {
+    font-size: 25%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body,
+  img {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  body,
+  img {
+    font-size: 85%;
+  }
+}
+@media screen and (max-width: 1920px) {
+  body,
+  img {
+    font-size: 100%;
+  }
+}
