@@ -1,0 +1,19 @@
+div {
+  text-align: left;
+}
+h1 {
+  color: rgb(95, 63, 133);
+}
+h2 {
+  color: rgb(70, 45, 163);
+}
+img {
+  width: 100%;
+  max-width: 900px;
+}
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+  max-width: 800px;
+}
