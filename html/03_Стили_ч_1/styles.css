@@ -1,0 +1,30 @@
+body {
+  width: 750px;
+  height: 1879;
+}
+.header {
+  width: 752;
+  height: 237;
+  background-color: rgba(45, 112, 83, 1);
+}
+.ellipse_1 {
+  background-color: rgba(255, 255, 255, 1);
+}
+.main {
+  width: 752px;
+  background-color: #ffffff;
+}
+.room {
+  /* width: 255;
+  height: 276; */
+  background: url("./images/room.png") 100% 100% no-repeat;
+}
+.footer {
+  display: inline-block;
+  width: 752px;
+  height: 156;
+  background-color: rgba(136, 136, 136, 1);
+}
+.ellipse_2 {
+  background-color: rgba(255, 255, 255, 1);
+}
