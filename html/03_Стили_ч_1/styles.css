@@ -1,15 +1,49 @@
 body {
-  width: 750px;
-  height: 1879;
+  width: 752px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header {
   width: 752;
   height: 237;
-  background-color: rgba(45, 112, 83, 1);
+  background: url("./images/Прямоугольник_1.png");
 }
-.ellipse_1 {
-  background-color: rgba(255, 255, 255, 1);
+
+.header > .logo_heder {
+  float: left;
+  width: 144px;
+  height: 144px;
+  margin-top: 46px;
+  margin-right: 58px;
+  margin-bottom: 46px;
+  margin-left: 36px;
+  margin-bottom: 46px;
+  background: url("./images/Эллипс_1.png");
 }
+.header > .title {
+  float: left;
+  width: 134px;
+  height: 131px;
+  margin-top: 46px;
+  margin-right: 58px;
+  margin-bottom: 53px;
+  margin-left: 58px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+}
+.header > .navbar {
+  float: left;
+  width: 87px;
+  height: 71px;
+  margin-left: 242px;
+  margin-top: 83px;
+  background: url("./images/menu.png");
+}
+.clear {
+  clear: left;
+}
+
 .main {
   width: 752px;
   background-color: #ffffff;
@@ -17,7 +51,7 @@ body {
 .room {
   /* width: 255;
   height: 276; */
-  background: url("./images/room.png") 100% 100% no-repeat;
+  background: url("./images/room_2.png") 100% 100% no-repeat;
 }
 .footer {
   display: inline-block;
@@ -25,6 +59,6 @@ body {
   height: 156;
   background-color: rgba(136, 136, 136, 1);
 }
-.ellipse_2 {
+.logo_footer {
   background-color: rgba(255, 255, 255, 1);
 }
