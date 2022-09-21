@@ -5,40 +5,39 @@ body {
   margin-right: auto;
 }
 .header {
-  width: 752;
-  height: 237;
+  width: 752px;
+  height: 237px;
   background: url("./images/Прямоугольник_1.png");
 }
 
-.header > .logo_heder {
+.logo_header {
   float: left;
   width: 144px;
   height: 144px;
-  margin-top: 46px;
-  margin-right: 58px;
-  margin-bottom: 46px;
-  margin-left: 36px;
-  margin-bottom: 46px;
+  margin: 46px 58px 46px 36px;
+  border-radius: 50%;
   background: url("./images/Эллипс_1.png");
 }
-.header > .title {
+.title {
   float: left;
   width: 134px;
   height: 131px;
   margin-top: 46px;
-  margin-right: 58px;
   margin-bottom: 53px;
-  margin-left: 58px;
   font-size: 30px;
   color: rgba(255, 255, 255, 1);
 }
-.header > .navbar {
+.navbar {
   float: left;
   width: 87px;
   height: 71px;
-  margin-left: 242px;
   margin-top: 83px;
-  background: url("./images/menu.png");
+  margin-left: 248px;
+}
+.navbar img {
+  width: 87px;
+  height: 15px;
+  margin-top: 13px;
 }
 .clear {
   clear: left;
