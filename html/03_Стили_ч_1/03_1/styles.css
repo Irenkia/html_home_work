@@ -1,9 +1,13 @@
+html {
+  background-color: #d0d3d5;
+}
 body {
   width: 752px;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
 }
+/* header */
 .header {
   width: 752px;
   height: 235px;
@@ -42,22 +46,80 @@ body {
   clear: left;
 }
 
+/* main */
 .main {
-  width: 752px;
+  width: 750px;
   background-color: #ffffff;
 }
+
 .room {
-  width: 752px;
+  width: 750px;
   height: 470px;
   background: url("./images/room_2.png");
 }
+.btn {
+  width: 344px;
+  height: 77px;
+  border: none;
+  padding: auto;
+  font-size: 24px;
+  color: #ffffff;
+  background: url("./images/Прямоугольник_4.png");
+}
+#btn_1 {
+  margin: 343px 200px 51.5px 210px;
+}
+
 .about {
   width: 752px;
-  height: 1018px;
+  color: #000000;
+  margin-left: 38.5px;
 }
-.about img {
+.data img {
+  width: 255px;
+  height: 276px;
+  float: left;
   border-radius: 50%;
+  margin: 77px 0 77px;
 }
+h2 {
+  font-size: 36px;
+  font-weight: normal;
+}
+.data h2 {
+  width: 310px;
+  height: 27px;
+  float: left;
+  margin: 150px 0 50px 100px;
+}
+p {
+  font-size: 24px;
+}
+.data p {
+  width: 245px;
+  height: 50px;
+  float: left;
+  margin-top: 0;
+  margin-left: 100px;
+}
+
+.work_experience {
+  width: 590px;
+  height: 166px;
+}
+.reasons h2 {
+  width: 545px;
+  height: 32px;
+}
+.reasons p {
+  width: 256px;
+  height: 190px;
+}
+#btn_2 {
+  margin: 13px 204px 51.5px 165.5px;
+}
+
+/* footer */
 .footer {
   width: 752px;
   height: 156px;
@@ -89,5 +151,5 @@ body {
   float: left;
   width: 144px;
   height: 17px;
-  margin: 31px 0 35px 38px; /*436*/ /*31px 45px 39px 427px*/
+  margin: 31px 0 35px 38px;
 }
