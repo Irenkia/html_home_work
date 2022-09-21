@@ -6,7 +6,7 @@ body {
 }
 .header {
   width: 752px;
-  height: 237px;
+  height: 235px;
   background: url("./images/Прямоугольник_1.png");
 }
 
@@ -15,7 +15,6 @@ body {
   width: 144px;
   height: 144px;
   margin: 46px 58px 46px 36px;
-  border-radius: 50%;
   background: url("./images/Эллипс_1.png");
 }
 .title {
@@ -31,13 +30,13 @@ body {
   float: left;
   width: 87px;
   height: 71px;
-  margin-top: 83px;
+  margin-top: 73px;
   margin-left: 248px;
 }
 .navbar img {
   width: 87px;
   height: 15px;
-  margin-top: 13px;
+  margin-top: 10px;
 }
 .clear {
   clear: left;
@@ -48,16 +47,47 @@ body {
   background-color: #ffffff;
 }
 .room {
-  /* width: 255;
-  height: 276; */
-  background: url("./images/room_2.png") 100% 100% no-repeat;
+  width: 752px;
+  height: 470px;
+  background: url("./images/room_2.png");
+}
+.about {
+  width: 752px;
+  height: 1018px;
+}
+.about img {
+  border-radius: 50%;
 }
 .footer {
-  display: inline-block;
   width: 752px;
-  height: 156;
-  background-color: rgba(136, 136, 136, 1);
+  height: 156px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  background: url("./images/Прямоугольник_5.png");
 }
 .logo_footer {
-  background-color: rgba(255, 255, 255, 1);
+  float: left;
+  width: 99px;
+  height: 99px;
+  margin: 28px 0 28px 45px;
+  background: url("./images/Эллипс_2.png");
+}
+.phone {
+  float: left;
+  width: 136px;
+  height: 15px;
+  white-space: nowrap;
+  margin: 38px 0 0 427px;
+}
+.address {
+  float: left;
+  width: 199px;
+  height: 17px;
+  margin: 31px 0 35px 182px;
+}
+.email {
+  float: left;
+  width: 144px;
+  height: 17px;
+  margin: 31px 0 35px 38px; /*436*/ /*31px 45px 39px 427px*/
 }
