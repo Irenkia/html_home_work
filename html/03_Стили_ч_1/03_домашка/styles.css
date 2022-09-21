@@ -1,0 +1,37 @@
+html body {
+  font-size: 16px;
+  background: #006262;
+  background: linear-gradient(
+    90deg,
+    #00bda0 0%,
+    rgba(4, 150, 77, 0.995) 22%,
+    rgb(17, 82, 179) 100%
+  );
+}
+.container {
+  padding: 1rem;
+  background: white;
+  width: 80%;
+  margin: 1rem auto;
+}
+h1 {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #c6c6c6;
+}
+.frame {
+  border: 2px solid #c6c6c6;
+  padding: 2rem;
+}
+table {
+  width: 40%;
+  border-color: #c6c6c6;
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+}
+
+table th,
+table td {
+  border: 2px solid #c6c6c6;
+  padding: 0.2rem 0.5rem;
+}
