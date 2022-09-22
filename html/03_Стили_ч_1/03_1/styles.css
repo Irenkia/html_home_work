@@ -2,14 +2,14 @@ html {
   background-color: #d0d3d5;
 }
 body {
-  width: 752px;
+  width: 751px;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
 }
 /* header */
 .header {
-  width: 752px;
+  width: 751px;
   height: 235px;
   background: url("./images/Прямоугольник_1.png");
 }
@@ -57,6 +57,14 @@ body {
   height: 470px;
   background: url("./images/room_2.png");
 }
+.shift {
+  width: 742px;
+  height: 440px;
+  background: url("./images/Прямоугольник_3.png");
+  position: relative;
+  left: 10px;
+  top: -470px;
+}
 .btn {
   width: 344px;
   height: 77px;
@@ -71,7 +79,8 @@ body {
 }
 
 .about {
-  width: 752px;
+  /* width: 752px; */
+  width: 712px;
   color: #000000;
   margin-left: 38.5px;
 }
@@ -121,8 +130,8 @@ p {
 
 /* footer */
 .footer {
-  width: 752px;
-  height: 156px;
+  width: 751px;
+  height: 154px;
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
   background: url("./images/Прямоугольник_5.png");
