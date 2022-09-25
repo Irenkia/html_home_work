@@ -53,3 +53,45 @@ body {
   height: 13px;
   margin-left: 10px;
 }
+/* main */
+.content {
+  display: block;
+  width: 1300px;
+  height: 687px;
+  background-image: url(./images/Слой_15.png);
+}
+.content img {
+  width: 1302px;
+  height: 688px;
+}
+/* footer */
+.footer {
+  display: block;
+  width: 1302px;
+  height: 72px;
+  font-size: 14px;
+  color: #f5b765;
+  background-color: rgba(140, 10, 13, 1);
+  opacity: 1;
+}
+.website-link a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 20px;
+  color: #f5b765;
+}
+.address {
+  display: inline-block;
+}
+.phone {
+  display: inline-block;
+}
+.email a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 20px;
+  color: #f5b765;
+}
+.media {
+  display: inline-block;
+}
