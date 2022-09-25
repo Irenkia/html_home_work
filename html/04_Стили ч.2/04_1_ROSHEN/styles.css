@@ -7,6 +7,7 @@ body {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Minion Pro";
 }
 /* header */
 .header {
@@ -59,12 +60,32 @@ a {
   display: block;
   width: 1300px;
   height: 687px;
+  position: relative;
   background-image: url(./images/Слой_15.png);
 }
-.content img {
+.content-shadow {
   width: 1302px;
   height: 688px;
+  background-image: url(./images/Прямоугольник_3.png);
 }
+.home {
+  width: 1170px;
+  height: 335px;
+  margin: 28px 66px 324px 66px;
+}
+h1 {
+  position: absolute;
+  top: 0;
+  margin-top: 42px;
+  margin-left: 420px;
+  font-size: 60px;
+  font-weight: normal;
+  color: #35040c;
+}
+h1 span {
+  font-family: "Arial", sans-serif;
+}
+
 /* footer */
 .footer {
   display: block;
