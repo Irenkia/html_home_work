@@ -1,4 +1,5 @@
 html {
+  box-sizing: border-box;
   background-color: #d0d3d5;
 }
 body {
@@ -12,61 +13,43 @@ body {
   display: block;
   width: 1302px;
   height: 72px;
-  margin-left: auto;
-  margin-right: auto;
   color: #f5b765;
   background-color: rgba(140, 10, 13, 1);
   opacity: 1;
-  box-sizing: border-box;
 }
 .logo {
-  /* display: inline-block; */
-  float: left;
+  display: inline-block;
   width: 177px;
   height: 41px;
   margin-top: 15px;
   margin-left: 68px;
 }
 .menu {
-  float: left;
-  /* width: 721px; */
-  width: px;
-  height: 13px;
-  margin-top: 38px;
-  /*margin-bottom: 32px; */
+  display: inline-block;
+  width: 698px;
+  height: 11px;
+  margin-top: 39px;
+  margin-bottom: 22px;
   margin-left: 125px;
-  /* text-align: justify;
-  justify-content: space-between; */
   font-size: 14px;
-  /* position: absolute; */
-  /* top: 10px;
-  right: 100px; */
-}
-nav {
-  text-align: justify;
-  justify-content: space-between;
 }
 .menu a {
+  display: inline-block;
   text-decoration: none;
-  list-style: none;
+  margin-left: 20px;
   color: #f5b765;
 }
 .english {
-  /* display: inline-block; */
-  float: left;
-  margin: 38px 67px 21px 93px;
+  display: inline-block;
+  margin-left: 90px;
   font-size: 18px;
-  color: #f5b765;
 }
 .english img {
-  /* display: inline-block; */
-  float: left;
   width: 26px;
   height: 18px;
 }
 .english span {
   width: 38px;
   height: 13px;
-  margin-right: 67px;
   margin-left: 10px;
 }
