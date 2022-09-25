@@ -33,11 +33,12 @@ body {
   margin-left: 125px;
   font-size: 14px;
 }
-.menu a {
-  display: inline-block;
+a {
   text-decoration: none;
-  margin-left: 20px;
   color: #f5b765;
+}
+.menu a {
+  margin-left: 20px;
 }
 .english {
   display: inline-block;
@@ -74,24 +75,39 @@ body {
   background-color: rgba(140, 10, 13, 1);
   opacity: 1;
 }
-.website-link a {
+.website-link {
   display: inline-block;
-  text-decoration: none;
-  margin-left: 20px;
-  color: #f5b765;
+  width: 192px;
+  height: 14px;
+  margin: 37px 0 21px 68px;
 }
 .address {
   display: inline-block;
+  width: 148px;
+  height: 38px;
+  margin: 13px 0 21px 102px;
 }
 .phone {
   display: inline-block;
+  width: 144px;
+  height: 37px;
+  margin-left: 149px;
 }
-.email a {
+.email {
   display: inline-block;
-  text-decoration: none;
-  margin-left: 20px;
-  color: #f5b765;
+  width: 138px;
+  height: 33px;
+  margin-left: 155px;
 }
-.media {
+.media-facebook {
   display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-left: 69px;
+}
+.media-contact {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-left: 10px;
 }
