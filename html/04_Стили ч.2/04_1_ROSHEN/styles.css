@@ -149,6 +149,71 @@ h1 span {
 }
 
 /*--------------- A B O U T -----------------*/
+.about {
+  width: 1168px;
+  height: 260px;
+  margin-left: 67px;
+  position: absolute;
+  bottom: 30px;
+}
+.taxes {
+  float: left;
+  text-align: justify;
+  width: 269px;
+  height: 260px;
+  margin: 0px;
+}
+.fountain {
+  float: left;
+  text-align: justify;
+  width: 269px;
+  height: 260px;
+  margin-left: 30px;
+}
+.solution {
+  float: left;
+  text-align: justify;
+  width: 269px;
+  height: 260px;
+  margin-left: 30px;
+}
+.exhibition {
+  float: left;
+  text-align: justify;
+  width: 269px;
+  height: 260px;
+  margin-left: 30px;
+}
+.title {
+  float: left;
+  text-align: justify;
+  width: 269px;
+  margin: 0px;
+  font-size: 1.125rem;
+}
+.about p {
+  font-size: 1rem;
+}
+.text-1 {
+  margin-top: 51px;
+  padding-top: 68px;
+}
+
+.text-2 {
+  margin-top: 31px;
+  padding-top: 88px;
+}
+
+.text-3 {
+  margin-top: 5px;
+  padding-top: 114px;
+}
+
+.text-4 {
+  margin-top: 51px;
+  padding-top: 69px;
+}
+
 /* footer  -----------------------------------------------*/
 .footer {
   display: block;
