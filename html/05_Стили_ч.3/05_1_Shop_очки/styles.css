@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+  background-color: #d0d3d5;
+}
+body {
+  width: 1400px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Open Sans", sans-serif;
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+
+/* header  ----------------------------------------------- */
+.header {
+  width: 1402px;
+  height: 157px;
+  margin-top: 2px;
+  margin-left: -1px;
+  font-size: 13px;
+}
+/* ----------------- header-1  ------------------------------ */
+.header-1 {
+  width: 1402px;
+  height: 45px;
+
+  color: #ffffff;
+  background: url("./images/Rectangle_1.png");
+}
+.language {
+  width: 110px;
+  display: inline-block;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-left: 189px;
+  color: #b8eefc;
+}
+.currency {
+  width: 89px;
+  display: inline-block;
+  color: #b8eefc;
+  margin-top: 13px;
+  margin-left: 30px;
+}
+span {
+  color: #ffffff;
+}
+.arrow-1 {
+  width: 10px;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 10px;
+}
+i {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.arrow-down-up {
+  display: inline-block;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-top: 16px;
+  margin-left: 0;
+}
+.arrow-down-up:hover {
+  display: inline-block;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.arrow-2 {
+  width: 10px;
+  display: inline-block;
+  margin-left: 0;
+}
+
+.top-menu {
+  display: inline-block;
+  width: 357px;
+  height: 13px;
+  margin-top: 13px;
+  margin-left: 421px;
+  font-size: 13px;
+}
+.top-menu a {
+  color: rgb(255, 255, 255);
+}
+.top-menu a::after {
+  content: "|";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#last::after {
+  content: "";
+  display: none;
+}
+/* ----------------- header-2  ------------------------------ */
+.header-2 {
+  width: 1400px;
+  height: 112px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  color: #656565;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.logo {
+  margin-top: 30px;
+  margin-left: 191px;
+  display: inline-block;
+  font-size: 36px;
+}
+.menu {
+  width: 390px;
+  height: 14px;
+  margin-top: 43px;
+  margin-left: 47px;
+  display: inline-block;
+  position: absolute;
+}
+.menu a {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #656565;
+}
+
+/* main  ------------------------------------------------- */
+/* footer  ----------------------------------------------- */
