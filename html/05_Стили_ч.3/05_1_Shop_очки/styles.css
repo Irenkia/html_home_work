@@ -103,8 +103,6 @@ i {
   width: 1400px;
   height: 112px;
   display: inline-block;
-  vertical-align: middle;
-  position: relative;
   color: #656565;
   font-weight: bold;
   text-transform: uppercase;
@@ -118,7 +116,7 @@ i {
 .menu {
   width: 390px;
   height: 14px;
-  margin-top: 43px;
+  margin-top: 53px;
   margin-left: 47px;
   display: inline-block;
   position: absolute;
@@ -128,6 +126,47 @@ i {
   font-size: 14px;
   color: #656565;
 }
-
+.search {
+  width: 177px;
+  height: 32px;
+  margin-top: 45px;
+  margin-left: 522px;
+  display: inline-block;
+  background: url("./images/Rectangle_2.png");
+}
+.search p {
+  width: 48px;
+  height: 10px;
+  margin-top: 7px;
+  margin-left: 7px;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: none;
+}
+.search img {
+  margin-left: 90px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cart {
+  width: 200px;
+  height: 38px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+.cart img {
+  width: 38px;
+  height: 38px;
+  margin-left: 5px;
+  display: inline-block;
+}
+.cart b {
+  width: 70px;
+  height: 14px;
+  margin-top: -34px;
+  vertical-align: middle;
+  display: inline-block;
+}
 /* main  ------------------------------------------------- */
 /* footer  ----------------------------------------------- */
