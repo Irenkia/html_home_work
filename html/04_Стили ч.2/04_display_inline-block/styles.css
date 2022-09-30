@@ -24,7 +24,7 @@ html body {
   position: relative;
   box-sizing: border-box;
 }
-#title-1 {
+.title-1 {
   margin-top: 0;
   margin-bottom: 1rem;
   text-shadow: 3px 5px 6px rgb(34, 188, 226);
