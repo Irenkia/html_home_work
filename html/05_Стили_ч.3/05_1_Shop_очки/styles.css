@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 
-/* header  ----------------------------------------------- */
+/* HEADER  ----------------------------------------------- */
 .header {
   width: 1402px;
   height: 157px;
@@ -181,7 +181,7 @@ i {
   vertical-align: middle;
   display: inline-block;
 }
-/* main  ------------------------------------------------- */
+/* MAIN  ------------------------------------------------- */
 /* ----------------- banner  ------------------------------ */
 .banner {
   position: relative;
@@ -216,12 +216,12 @@ i {
   background-color: #746c64;
   position: absolute;
 }
-/* footer  ----------------------------------------------- */
+/* FOOTER  ----------------------------------------------- */
 .footer {
   width: 1400px;
   height: 506px;
 }
-/* ----------------- footer-1  ------------------------------ */
+/* ----------------- FOOTER-1  ------------------------------ */
 .footer-1 {
   height: 106px;
   text-transform: uppercase;
@@ -247,13 +247,106 @@ i {
   margin-bottom: 20px;
   margin-left: -52px;
 }
-/* ----------------- footer-2  ------------------------------ */
+/* ----------------- FOOTER-2  ------------------------------ */
 .footer-2 {
   height: 331px;
   font-size: 21px;
+  font-weight: lighter;
+  color: #ffffff;
   background: url("./images/footer.png");
 }
-/* ----------------- footer-3 ------------------------------ */
+.footer-2-header {
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+  box-sizing: border-box;
+}
+/* ----------------- facebook  ------------------------------ */
+.facebook {
+  width: 236px;
+  height: 231px;
+  margin-top: 47px;
+  margin-left: 186px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+.members {
+  margin-top: 20px;
+  font-size: 13px;
+}
+.like {
+  margin-top: 6px;
+}
+.line {
+  width: 236px;
+  height: 120px;
+  margin-top: 3px;
+  border-top: 1px solid #b8eefc;
+  border-bottom: 1px solid #b8eefc;
+}
+.gallery {
+  width: 236px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.gallery-position-up {
+  float: left;
+  margin: 0 9px 7px 0;
+}
+.gallery-position-down {
+  float: left;
+  margin: 0 9px 0 0;
+}
+.facebook-tetx {
+  font-size: 13px;
+}
+/* ----------------- from-twitter  ------------------------------ */
+.from-twitter {
+  width: 223px;
+  height: 220px;
+  margin-top: 47px;
+  margin-left: 48px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid black;
+}
+/* ----------------- information  ------------------------------ */
+.information {
+  width: 186px;
+  height: 182px;
+  margin-top: 47px;
+  margin-left: 73px;
+  display: inline-block;
+  vertical-align: top;
+}
+.info {
+  margin-top: 26px;
+}
+.arrow-info {
+  display: inline-block;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-top: 16px;
+  margin-left: 0;
+}
+.text-info {
+  display: inline-block;
+  font-size: 13px;
+}
+/* ----------------- contact-us  ------------------------------ */
+.contact-us {
+  width: 199px;
+  height: 227px;
+  margin-top: 47px;
+  margin-left: 60px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid black;
+}
+/* ----------------- FOOTER-3 ------------------------------ */
 .footer-3 {
   height: 67px;
   font-size: 13px;
