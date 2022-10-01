@@ -103,6 +103,7 @@ i {
   width: 1400px;
   height: 112px;
   display: inline-block;
+  position: relative;
   color: #656565;
   font-weight: bold;
   text-transform: uppercase;
@@ -116,7 +117,7 @@ i {
 .menu {
   width: 390px;
   height: 14px;
-  margin-top: 53px;
+  margin-top: 46px;
   margin-left: 47px;
   display: inline-block;
   position: absolute;
@@ -129,9 +130,10 @@ i {
 .search {
   width: 177px;
   height: 32px;
-  margin-top: 45px;
+  margin-top: 39px;
   margin-left: 522px;
   display: inline-block;
+  position: absolute;
   background: url("./images/Rectangle_2.png");
 }
 .search p {
@@ -151,15 +153,26 @@ i {
 .cart {
   width: 200px;
   height: 38px;
+  margin-top: 35px;
+  margin-left: 705px;
   display: inline-block;
-  position: relative;
+  position: absolute;
   vertical-align: middle;
 }
 .cart img {
-  width: 38px;
-  height: 38px;
   margin-left: 5px;
+  bottom: 5px;
   display: inline-block;
+}
+.discount {
+  position: absolute;
+  top: 9px;
+  left: 8px;
+}
+.basket {
+  position: absolute;
+  top: 9px;
+  left: 54px;
 }
 .cart b {
   width: 70px;
@@ -169,4 +182,38 @@ i {
   display: inline-block;
 }
 /* main  ------------------------------------------------- */
+.banner {
+  position: relative;
+  text-transform: uppercase;
+}
+.arrow-left {
+  top: 215px;
+  left: 122px;
+  position: absolute;
+}
+.arrow-right {
+  top: 215px;
+  left: 1208px;
+  position: absolute;
+}
+.banner-title {
+  top: 199px;
+  left: 238px;
+  padding: 10px;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #746c64;
+  position: absolute;
+}
+.banner-subtitle {
+  top: 256px;
+  left: 238px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #746c64;
+  position: absolute;
+}
 /* footer  ----------------------------------------------- */
