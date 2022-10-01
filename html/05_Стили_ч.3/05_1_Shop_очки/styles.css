@@ -94,7 +94,7 @@ i {
   margin-left: 10px;
   margin-right: 10px;
 }
-#last::after {
+.last::after {
   content: "";
   display: none;
 }
@@ -182,9 +182,12 @@ i {
   display: inline-block;
 }
 /* main  ------------------------------------------------- */
+/* ----------------- banner  ------------------------------ */
 .banner {
   position: relative;
+  font-size: 30px;
   text-transform: uppercase;
+  color: #ffffff;
 }
 .arrow-left {
   top: 215px;
@@ -195,25 +198,90 @@ i {
   top: 215px;
   left: 1208px;
   position: absolute;
+  transform: rotate(180deg);
 }
 .banner-title {
   top: 199px;
   left: 238px;
-  padding: 10px;
+  padding: 10px 40px 10px 20px;
   font-weight: lighter;
-  font-size: 30px;
-  color: #ffffff;
   background-color: #746c64;
   position: absolute;
 }
 .banner-subtitle {
   top: 256px;
   left: 238px;
-  padding: 10px;
+  padding: 10px 20px;
   font-weight: bolder;
-  font-size: 30px;
-  color: #ffffff;
   background-color: #746c64;
   position: absolute;
 }
 /* footer  ----------------------------------------------- */
+.footer {
+  width: 1400px;
+  height: 506px;
+}
+/* ----------------- footer-1  ------------------------------ */
+.footer-1 {
+  height: 106px;
+  text-transform: uppercase;
+  color: white;
+  background: url("./images/Layer_32.png");
+  overflow: hidden;
+}
+.footer-1-position {
+  float: left;
+  margin-top: 20px;
+  margin-left: 186px;
+}
+.footer-1-text {
+  float: right;
+  margin-top: 24px;
+  margin-left: 32px;
+}
+.car {
+  margin-bottom: 20px;
+  margin-left: -57px;
+}
+.phone {
+  margin-bottom: 20px;
+  margin-left: -52px;
+}
+/* ----------------- footer-2  ------------------------------ */
+.footer-2 {
+  height: 331px;
+  font-size: 21px;
+  background: url("./images/footer.png");
+}
+/* ----------------- footer-3 ------------------------------ */
+.footer-3 {
+  height: 67px;
+  font-size: 13px;
+  background: url("./images/Rectangle_8.png");
+  overflow: hidden;
+}
+.copyright {
+  width: 340px;
+  margin-top: 27px;
+  margin-left: 191px;
+  float: left;
+  color: #b8eefc;
+}
+.footer-menu {
+  margin-top: 27px;
+  margin-left: 242px;
+  float: left;
+}
+.footer-menu a {
+  color: #b8eefc;
+}
+.footer-menu a::after {
+  content: "|";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.clearfix:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
