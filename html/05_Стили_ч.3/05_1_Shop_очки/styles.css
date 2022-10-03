@@ -216,6 +216,45 @@ i {
   background-color: #746c64;
   position: absolute;
 }
+/*-- ----------------- a r t i c l e  ------------------------------ --*/
+article {
+  overflow: hidden;
+}
+article header {
+  font-size: 24px;
+  color: #635f57;
+  text-transform: uppercase;
+}
+/*-- ----------------- section-aside  ------------------------------ --*/
+aside {
+  width: 408px;
+  height: 804px;
+  border: 1px solid black;
+  float: right;
+}
+/*-- ----------------- section-content  ------------------------------ --*/
+section {
+}
+/*-- ----------------- Featured product  ------------------------------ --*/
+.featured-product {
+  width: 776px;
+  height: 1050px;
+  border: 1px solid black;
+}
+/*-- ----------------- Staff pick  ------------------------------ --*/
+.staff-pick {
+  width: 772px;
+  height: 360px;
+  border: 1px solid black;
+}
+
+/*-- ----------------- New Products  ------------------------------ --*/
+.new-products {
+  width: 776px;
+  height: 360px;
+  border: 1px solid black;
+}
+
 /* FOOTER  ----------------------------------------------- */
 .footer {
   width: 1400px;
@@ -397,19 +436,6 @@ i {
   width: 199px;
   height: 39px;
   margin-top: 10px;
-  position: relative;
-
-}
-.icons-1 {
-  left: -23px;
-  z-index: 1;
-  position: relative;
-}
-.icons-2 {
-  right: 36px;
-  bottom: 12px;
-  z-index: 2;
-  position: relative;
 }
 /* ----------------- FOOTER-3 ------------------------------ */
 .footer-3 {
