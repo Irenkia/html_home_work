@@ -218,12 +218,44 @@ i {
 }
 /*-- ----------------- a r t i c l e  ------------------------------ --*/
 article {
+  width: 1400px;
+  height: 2005px;
   overflow: hidden;
 }
 article header {
+  margin-top: 35px;
   font-size: 24px;
   color: #635f57;
   text-transform: uppercase;
+}
+.product {
+  width: 218px;
+  height: 300px;
+  margin-top: 15px;
+  margin-right: 20px;
+  padding: 9px;
+  float: left;
+  position: relative;
+  color: #868487;
+  border: 1px solid #eff1f0;
+  box-shadow: 1px 2px 1px 1px #eff1f0, -1px -2px 1px 1px #eff1f0;
+}
+.product-title {
+  margin-top: 18px;
+}
+.cost {
+  margin-top: 6px;
+  color: #7db122;
+}
+.cost span {
+  font-size: 13px;
+  text-decoration: line-through;
+  color: #868487;
+}
+.icon-basket {
+  position: absolute;
+  left: 177px;
+  bottom: 20px;
 }
 /*-- ----------------- section-aside  ------------------------------ --*/
 aside {
@@ -232,27 +264,29 @@ aside {
   border: 1px solid black;
   float: right;
 }
+
 /*-- ----------------- section-content  ------------------------------ --*/
 section {
+  margin-left: 185px;
 }
 /*-- ----------------- Featured product  ------------------------------ --*/
 .featured-product {
   width: 776px;
   height: 1050px;
-  border: 1px solid black;
+  margin-top: 35px;
 }
 /*-- ----------------- Staff pick  ------------------------------ --*/
 .staff-pick {
-  width: 772px;
-  height: 360px;
-  border: 1px solid black;
+  width: 776px;
+  height: 380px;
 }
 
 /*-- ----------------- New Products  ------------------------------ --*/
 .new-products {
   width: 776px;
-  height: 360px;
-  border: 1px solid black;
+  height: 420px;
+  margin-right: 446px;
+  margin-bottom: 54px;
 }
 
 /* FOOTER  ----------------------------------------------- */
