@@ -238,7 +238,26 @@ article header {
   position: relative;
   color: #868487;
   border: 1px solid #eff1f0;
-  box-shadow: 1px 2px 1px 1px #eff1f0, -1px -2px 1px 1px #eff1f0;
+  box-shadow: 1px 1px 1px 1px #eff1f0, -1px -1px 1px 1px #eff1f0;
+}
+.new::before {
+  content: "";
+  width: 95px;
+  height: 92px;
+  top: -6px;
+  right: -4px;
+  position: absolute;
+  background-image: url("./images/new.png");
+}
+.sale::before {
+  content: "";
+  width: 95px;
+  height: 92px;
+  top: -6px;
+  left: -5px;
+  position: absolute;
+  background-image: url("./images/sale.png");
+  z-index: 2;
 }
 .product-title {
   margin-top: 18px;
@@ -260,9 +279,13 @@ article header {
 /*-- ----------------- section-aside  ------------------------------ --*/
 aside {
   width: 408px;
-  height: 804px;
-  /* border: 1px solid black; */
+  height: 880px;
   float: right;
+}
+aside::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 .featured {
   width: 233px;
@@ -270,6 +293,7 @@ aside {
   margin-top: 35px;
   border: 1px solid #eff1f0;
   box-shadow: 1px 2px 1px 1px #eff1f0, -1px -2px 1px 1px #eff1f0;
+  position: relative;
 }
 .blue-line {
   width: 233px;
@@ -283,6 +307,35 @@ aside {
 .featured-banner {
   width: 217px;
   margin: 8px;
+  margin-bottom: 10px;
+}
+.featured-button-blue {
+  top: 395px;
+  right: 47px;
+  position: absolute;
+}
+.blue-button-text {
+  bottom: 73px;
+  right: 81px;
+  position: absolute;
+  font-size: 14px;
+  color: #ffffff;
+}
+.featured-foo {
+  width: 233px;
+  height: 40px;
+  border-top: 1px solid #eff1f0;
+  box-shadow: -1px -2px 1px 1px #eff1f0;
+}
+.dot-1 {
+  margin-top: 10px;
+  margin-left: 90px;
+}
+.dot-2 {
+  margin-left: 7px;
+}
+.dot-3 {
+  margin-left: 7px;
 }
 .newsletter-sign-up {
   width: 233px;
@@ -302,6 +355,14 @@ aside {
 }
 .green-button {
   margin-top: 20px;
+  position: relative;
+}
+.green-button-text {
+  bottom: 20px;
+  right: 86px;
+  position: absolute;
+  font-size: 14px;
+  color: #ffffff;
 }
 /*-- ----------------- section-content  ------------------------------ --*/
 section {
@@ -313,12 +374,21 @@ section {
   height: 1050px;
   margin-top: 35px;
 }
+.featured-product::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /*-- ----------------- Staff pick  ------------------------------ --*/
 .staff-pick {
   width: 776px;
   height: 380px;
 }
-
+.staff-pick::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /*-- ----------------- New Products  ------------------------------ --*/
 .new-products {
   width: 776px;
@@ -326,7 +396,11 @@ section {
   margin-right: 446px;
   margin-bottom: 54px;
 }
-
+.new-products ::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /* FOOTER  ----------------------------------------------- */
 .footer {
   width: 1400px;
