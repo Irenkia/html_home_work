@@ -1,0 +1,55 @@
+html {
+  background-color: #d0d3d5;
+}
+body {
+  width: 1980px;
+  /* height: 4715; */
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Open Sans", sans-serif;
+  background: url("./images/BG-1.png");
+}
+.layer-2 {
+  width: 1980px;
+  height: 3582px;
+  margin-top: 1133px;
+}
+/* HEADER  ----------------------------------------------- */
+.top {
+  width: 1799px;
+  height: 982px;
+  margin-top: 55px;
+  margin-left: 101px;
+}
+/* MAIN  ------------------------------------------------- */
+.take-your-best {
+  width: 1980px;
+  height: 690px;
+  margin-top: 1192px;
+}
+.add-your-announcment-now {
+  width: 1982px;
+  height: 638px;
+  margin-top: 2040px;
+  margin-left: -1px;
+}
+.add-small {
+  width: 465px;
+  height: 571px;
+  margin-top: 2915px;
+  margin-left: 178px;
+}
+.add-bigger {
+  width: 1039px;
+  height: 686px;
+  margin-top: 2840px;
+  margin-left: 845px;
+}
+/* FOOTER  ----------------------------------------------- */
+.search {
+  width: 1683px;
+  height: 867px;
+  margin-top: 3675px;
+  margin-left: 178px;
+}
