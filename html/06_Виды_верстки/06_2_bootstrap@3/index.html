@@ -1,0 +1,428 @@
+<!--
+    взяти попередню домашку
+    Блоки товаров через float-ы с псевдоанимацией
+    підключити бутстрап
+    https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.css 
+    використати bootstrap grid
+    CSS · Bootstrap 
+    для проставлення товарів у рядок
+
+задіяти бутстрап частини:
+
+    іконки (можна використати в якості “додати у кошик” картинки)
+    Components · Bootstrap 
+
+    прибрати будь-які класи для вирівнювання (text-center), використати наявні бутстрапівські
+    CSS · Bootstrap
+
+    картинку товара в блоку .product зробити через
+    CSS · Bootstrap 
+    або навіть весь блок товару через
+    Components · Bootstrap 
+    тут на розсуд
+-->
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>06_bootstrap@3</title>
+  </head>
+  <body>
+    <div class="container">
+      <!------------------------    Products   ----------------------->
+      <div class="products row">
+        <h2 class="product-title col-xs-12">Фены</h2>
+        <!-----------------  1-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_1.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен ROWENTA Studio Dry Blow CV5812</h3>
+          </div>
+          <p class="text-primary"><b>849 ₴</b></p>
+          <p class="text-content text-justify">
+            Модель Rowenta CV5812 серии Studio Dry - хороший выбор, если нужно
+            быстро и бережно подсушить волосы или сделать эффектную укладку.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/rowenta_studio_dry_blow_cv5812/p189185683/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  2-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_2.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен BABYLISS 6709DE AC motor PRO</h3>
+          </div>
+          <p class="text-primary"><b>1 299 ₴</b></p>
+          <p class="text-content text-justify">
+            Фен BABYLISS 6709DE ультрабыстрый фен с профессиональным АС-мотором,
+            что гарантирует максимальную мощность и долговечность прибора.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/babyliss_6709de/p249332616/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  3-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_3.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен Rowenta PREMIUM CARE PRO CV7461F0</h3>
+          </div>
+          <p class="text-primary"><b>2 399 ₴</b></p>
+          <p class="text-content text-justify">
+            Фен для волос PREMIUM CARE PRO CV7461F0 от Rowenta: мощный фен для
+            идеального результата и красивых, ухоженных волос.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/rowenta-cv7461f0/p313489384/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  4-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_4.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен PHILIPS EssentialCare BHC010/10</h3>
+          </div>
+          <p class="text-primary"><b>499 ₴</b></p>
+          <p class="text-content text-justify">
+            Фен Philips Essential Care — мощный прибор, который заботится о
+            ваших волосах и работает на 20% тише по сравнению с моделью HP4940.
+          </p>
+          <a class="add-to-basket" href="" target="_blank">
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  5-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_5.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен ROWENTA CV9820 Ultimate Experience</h3>
+          </div>
+          <p class="text-primary"><b>6 999 ₴</b></p>
+          <p class="text-content text-justify">
+            Удобный, компактный, легкий и мощный фен. Используется цифровой
+            Digital мотор.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/rowenta_cv9820/p179526957/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  6-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_6.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен ROWENTA CV7920 Premium Care Silence Pro AC</h3>
+          </div>
+          <p class="text-primary"><b>2 399 ₴</b></p>
+          <p class="text-content text-justify">
+            Испытайте мощную и невероятно тихую сушку волос с новым феном
+            Silence AC.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/rowenta_cv7920_premium_care_silence_pro_ac/p25166457/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  7-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_7.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен REMINGTON AC8002 Keratin Protect</h3>
+          </div>
+          <p class="text-primary"><b>1 799 ₴</b></p>
+          <p class="text-content text-justify">
+            Новая модель от Remington — AC8002 Keratin Protect относится к
+            высококачественным профессиональным фенам.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/remington_ac8002_keratin_protect/p24460080/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  8-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_8.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен ESPERANZA EBH004K</h3>
+          </div>
+          <p class="text-primary"><b>589 ₴</b></p>
+          <p class="text-content text-justify">
+            Фен Esperanza EBH004K идеально подойдет в дом каждого человека,
+            который ценит время и ухоженный вид.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/esperanza_ebh004k/p68843205/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  9-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_9.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен BABYLISS 6750DE</h3>
+          </div>
+          <p class="text-primary"><b>4 499 ₴</b></p>
+          <p class="text-content text-justify">
+            Фен 6750DE от BaByliss в ярком красном корпусе — это стильное и
+            невероятно мощное решение для создания быстрой и стойкой укладки.
+            Любая прическа за считанные минуты без вреда для волос.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/babyliss_6750de/p249383991/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  10-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_10.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен Valera Swiss Light 3200</h3>
+          </div>
+          <p class="text-primary"><b>2 634 ₴</b></p>
+          <p class="text-content text-justify">
+            Профессиональный фен Valera Swiss Light 3200 мощностью 1600 Вт имеет
+            3 температурных и 3 скоростных режима, что позволит быстро высушить
+            волосы и создать стильную укладку.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/valera-sl3200/p322265476/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  11-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_11.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен ROTEX RFF125-G FutureCare Compact</h3>
+          </div>
+          <p class="text-primary"><b>429 ₴</b></p>
+          <p class="text-content text-justify">
+            Фен ROTEX RFF125-G FutureCare Compact — это идеальный компактный фен
+            для путешествий и командировок со складной ручкой.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/rotex_rff125_g/p307576893/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  12-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_12.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен Remington D5408 Mineral Glow</h3>
+          </div>
+          <p class="text-primary"><b>1 559 ₴</b></p>
+          <p class="text-content text-justify">
+            Фен Remington D5408 Mineral Glow выполнен в потрясающем градиенте от
+            синего к сиреневому.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/remington_d5408_mineral_glow/p253575896/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  13-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_13.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен REMINGTON D5720 THERMACARE PRO 2400</h3>
+          </div>
+          <p class="text-primary"><b>1 659 ₴</b></p>
+          <p class="text-content text-justify">
+            Фен Remington D5710 гарантирует мощность 2400 Вт с фактической
+            мощностью мотора 2200 Вт и скорость воздушного потока 90 км/ч.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/remington_d5720/p96147580/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  14-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_14.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен ROTEX RFF220-R UltimateCare Pro</h3>
+          </div>
+          <p class="text-primary"><b>699 ₴</b></p>
+          <p class="text-content text-justify">
+            С феном ROTEX RFF220-R UltimateCare Pro не возникнет сложностей в
+            работе у любого пользователя.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/rotex_rff220_r/p307642828/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  15-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_15.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен SENCOR SHD 6700VT</h3>
+          </div>
+          <p class="text-primary"><b>899 ₴</b></p>
+          <p class="text-content text-justify">
+            Фен для волос SENCOR SHD 6700VT - идеальное сочетание быстрой сушки
+            и создание потрясающего стиля.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/sencor-41007707/p344525263/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+        <!-----------------  16-products -------------------->
+        <div class="product col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img class="center-block" src="./images/фен_16.jpg" alt="фен" />
+          </div>
+          <div class="caption">
+            <h3>Фен Rowenta PRO EXPERT CV8840F0</h3>
+          </div>
+          <p class="text-primary"><b>1 699 ₴</b></p>
+          <p class="text-content text-justify">
+            Благодаря передовым технологиям, обеспечивающим сушку
+            профессионального уровня, фен Pro Expert CV8840F0 от Rowenta
+            обеспечивает эффект салонного качества.
+          </p>
+          <a
+            class="add-to-basket"
+            href="https://bt.rozetka.com.ua/rowenta-cv8840f0/p346878951/"
+            target="_blank"
+          >
+            <span
+              class="glyphicon glyphicon-shopping-cart"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
