@@ -1,0 +1,23 @@
+task_06_bootstrap@3 :
+
+    взяти попередню домашку
+    Блоки товаров через float-ы с псевдоанимацией
+    підключити бутстрап
+    https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.css 
+    використати bootstrap grid
+    CSS · Bootstrap 
+    для проставлення товарів у рядок
+
+задіяти бутстрап частини:
+
+    іконки (можна використати в якості “додати у кошик” картинки)
+    Components · Bootstrap 
+
+    прибрати будь-які класи для вирівнювання (text-center), використати наявні бутстрапівські
+    CSS · Bootstrap
+
+    картинку товара в блоку .product зробити через
+    CSS · Bootstrap 
+    або навіть весь блок товару через
+    Components · Bootstrap 
+    тут на розсуд
