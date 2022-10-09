@@ -9,17 +9,72 @@ body {
   width: 70%;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: grey;
 }
-.form {
-  width: 30%;
-  height: 300px;
+.container-form {
+  width: 40%;
+  height: 40rem;
+  margin: 1rem auto;
+  padding: 1rem;
   background-color: white;
+  border-radius: 2%;
 }
 .form-header {
-  /* width: 200px;
-  height: 200px; */
   margin-top: 1rem;
+  text-align: center;
   font-size: 2rem;
   font-weight: normal;
+}
+.container-form p {
+  width: 40%;
+  height: 10rem;
+  padding-top: 2rem;
+}
+.container-social-icon {
+  width: 40%;
+  height: 6rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 2%;
+}
+.social-icon {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 1.5rem;
+  float: left;
+  cursor: pointer;
+  background: url("./images/sprite.png");
+}
+.social-icon-facebook {
+  background-position: -10px -10px;
+}
+.social-icon-facebook:hover {
+  background-position: -10px -94px;
+}
+.social-icon-pinterest {
+  background-position: -429px -10px;
+}
+.social-icon-pinterest:hover {
+  background-position: -430px -94px;
+}
+.social-icon-skype {
+  background-position: -600px -10px;
+}
+.social-icon-skype:hover {
+  background-position: -600px -94px;
+}
+.social-icon-twitter {
+  background-position: -680px -10px;
+}
+.social-icon-twitter:hover {
+  background-position: -680px -94px;
+}
+.social-icon-youtube {
+  background-position: -850px -10px;
+}
+.social-icon-youtube:hover {
+  background-position: -850px -94px;
 }
