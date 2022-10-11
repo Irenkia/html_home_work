@@ -15,7 +15,6 @@ body {
 }
 .container-form {
   width: 40%;
-  height: 40rem;
   margin: 1rem auto;
   padding: 1rem;
   background-color: white;
@@ -29,12 +28,10 @@ body {
 }
 .container-form p {
   width: 40%;
-  height: 10rem;
   padding-top: 2rem;
 }
 .container-social-icon {
   width: 40%;
-  height: 6rem;
   margin: 1rem auto;
   padding: 1rem;
   background-color: white;
@@ -77,4 +74,12 @@ body {
 }
 .social-icon-youtube:hover {
   background-position: -850px -94px;
+}
+@media screen and (max-width: 1000px) {
+  .container-form {
+    width: 70%;
+  }
+  .container-social-icon {
+    width: 70%;
+  }
 }

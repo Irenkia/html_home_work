@@ -2,37 +2,67 @@ html {
   background-color: #d0d3d5;
 }
 body {
-  width: 1980px;
-  /* height: 4715; */
+  /* width: 1980px;
+  height: 4715; */
+  width: 100%;
+  height: 100%;
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;
   font-family: "Open Sans", sans-serif;
   background: url("./images/BG-1.png");
 }
-.layer-2 {
+/* .layer-2 {
   width: 1980px;
   height: 3582px;
   margin-top: 1133px;
-}
+} */
 /* HEADER  ----------------------------------------------- */
+header {
+  /* width: 1980px; */
+  /* height: 1138px; */
+  width: 100%;
+  height: 24%;
+  padding: 55px 80px 101px 101pc;
+  background-color: #12110e;
+}
 .top {
-  width: 1799px;
-  height: 982px;
-  margin-top: 55px;
-  margin-left: 101px;
+  /* width: 1799px; */
+  /* height: 982px; */
+  width: 90%;
+  height: 86%;
+  /* margin-top: 55px;
+  margin-left: 101px; */
 }
 /* MAIN  ------------------------------------------------- */
+main {
+  width: 100%;
+  height: 52%;
+  background-color: #ffffff;
+}
 .take-your-best {
-  width: 1980px;
+  /* width: 1980px;
   height: 690px;
-  margin-top: 1192px;
+  padding-top: 52px;
+  padding-bottom: 154px;
+  margin-top: 1192px; */
+  width: 100%;
+  height: 19%;
 }
 .add-your-announcment-now {
-  width: 1982px;
+  /* width: 1982px;
   height: 638px;
   margin-top: 2040px;
-  margin-left: -1px;
+  margin-left: -1px; */
+  width: 100%;
+  height: 14%;
+  border: 1px solid #135ec5;
+  background-color: #135ec5;
+}
+.add-your-announcment-now-container {
+  /* width: 1982px;
+  height: 554px; */
+  background-color: #ffffff;
 }
 .add-small {
   width: 465px;
@@ -47,6 +77,12 @@ body {
   margin-left: 845px;
 }
 /* FOOTER  ----------------------------------------------- */
+footer {
+  width: 100%;
+  height: 24%;
+  border: 1px solid #135ec5;
+  background-color: #ffffff;
+}
 .search {
   width: 1683px;
   height: 867px;
