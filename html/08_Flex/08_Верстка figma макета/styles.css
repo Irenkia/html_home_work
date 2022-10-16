@@ -82,3 +82,49 @@ body {
   font-size: 0.875rem;
   color: #828282;
 }
+.screen-3 {
+  background-color: #f6f6f6;
+  padding: 7rem;
+  padding-bottom: 1rem;
+  line-height: 100%;
+}
+.screen-3 h2 {
+  margin-bottom: 4rem;
+}
+.screen-3 p {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+.portfolio img {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+.contacts {
+  padding: 7rem;
+  padding-bottom: 6rem;
+}
+.contacts p {
+  padding: 1rem;
+}
+.contacts button {
+  width: 11.375rem;
+  height: 2.625rem;
+  padding-right: 1.5rem;
+  color: #ffffff;
+  background: url("./images/chip-bg.png");
+  background-repeat: no-repeat;
+  border: none;
+}
+.footer-icons {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.contacts img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 3rem;
+}
+.like-me {
+  font-size: 0.875rem;
+  color: #828282;
+}
