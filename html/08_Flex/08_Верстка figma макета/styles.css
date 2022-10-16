@@ -40,6 +40,15 @@ body {
   padding-bottom: 2rem;
   line-height: 1.36rem;
 }
+.dropdown {
+  display: none;
+}
+.dropdown .dropdown-language {
+  display: none;
+  padding-bottom: 8rem;
+  padding-left: 3rem;
+  transform: rotate(90deg);
+}
 .language {
   padding-top: 4rem;
   transform: rotate(-90deg);
@@ -107,4 +116,19 @@ body {
 .like-me {
   font-size: 0.875rem;
   color: #828282;
+}
+@media screen and (max-width: 576px) {
+  .header-menu {
+    display: none;
+  }
+  .language {
+    display: none;
+  }
+  .header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .dropdown {
+    display: flex;
+  }
 }
