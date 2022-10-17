@@ -43,7 +43,7 @@ body {
 .dropdown {
   display: none;
 }
-.dropdown .dropdown-language {
+.mobile-language {
   display: none;
   padding-bottom: 8rem;
   padding-left: 3rem;
@@ -53,7 +53,7 @@ body {
   padding-top: 4rem;
   transform: rotate(-90deg);
 }
-.btn {
+.language .btn {
   color: #828282;
   background-color: white;
   border: none;
@@ -61,8 +61,11 @@ body {
 .btn .active {
   color: black;
 }
-.banner {
+.banner-1 {
   margin-bottom: 6rem;
+}
+.banner-2 {
+  display: none;
 }
 .screen-1 {
   background-color: #f6f6f6;
@@ -118,17 +121,37 @@ body {
   color: #828282;
 }
 @media screen and (max-width: 576px) {
-  .header-menu {
+  .header-menu a {
     display: none;
   }
   .language {
     display: none;
   }
-  .header .container {
+  .banner-1 {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  .profile {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
   .dropdown {
+    margin-right: 6rem;
+    margin-bottom: 3rem;
+    display: flex;
+    order: 2;
+  }
+  .mobile-language {
+    display: flex;
+  }
+  .description {
+    width: 100%;
+    order: 3;
+  }
+  .banner-2 {
     display: flex;
   }
 }
