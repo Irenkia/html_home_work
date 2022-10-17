@@ -40,13 +40,8 @@ body {
   padding-bottom: 2rem;
   line-height: 1.36rem;
 }
-.dropdown {
-  display: none;
-}
 .mobile-language {
-  display: none;
   padding-bottom: 8rem;
-  padding-left: 3rem;
   transform: rotate(90deg);
 }
 .language {
@@ -101,8 +96,8 @@ body {
   padding-bottom: 6rem;
 }
 .contacts button {
-  width: 11.375rem;
-  height: 2.625rem;
+  width: 10.5rem;
+  height: 2.5rem;
   color: #ffffff;
   background: url("./images/chip-bg.png");
   background-repeat: no-repeat;
@@ -120,7 +115,7 @@ body {
   font-size: 0.875rem;
   color: #828282;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .header-menu a {
     display: none;
   }
@@ -139,10 +134,15 @@ body {
     flex-wrap: wrap;
   }
   .dropdown {
-    margin-right: 6rem;
-    margin-bottom: 3rem;
+    margin-right: 0rem;
+    margin-bottom: 3.5rem;
     display: flex;
     order: 2;
+  }
+  .dropdown-menu {
+    top: 0;
+    left: auto;
+    right: 0;
   }
   .mobile-language {
     display: flex;
