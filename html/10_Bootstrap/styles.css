@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Poppins;
+  src: url("./fonts/Poppins/Poppins-Thin.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("./fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("./fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("./fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: 700;
+}
+html,
+body {
+  height: 100%;
+  font-size: 1.125rem;
+  font-family: Poppins;
+  background-size: 100% 100%;
+}
+header {
+  /* background-image: url("./images/Слой_5.png") no-repeat center center fixed; */
+  background-size: cover;
+}
+.nav {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7294117647058823);
+  opacity: 0.7;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
+header a:hover {
+  text-decoration: none;
+  color: #01c34c;
+  opacity: 1;
+}
+.logo {
+  width: 12rem;
+  height: 6rem;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  opacity: 1;
+}
+.logo img {
+  width: 10rem;
+  height: 4rem;
+}
+.registration {
+  /* background-image: url("./images/Прямоугольник-2.png") no-repeat; */
+  color: white;
+}
+main {
+  display: flex;
+  color: white;
+}
+main .img {
+  /* background-image: url("./images/Слой_5.png") no-repeat center center fixed; */
+  background-size: auto 100%;
+}

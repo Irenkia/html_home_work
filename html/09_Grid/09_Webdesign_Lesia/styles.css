@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Poppins;
+  src: url("./fonts/Poppins/Poppins-Thin.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("./fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("./fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("./fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: 700;
+}
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: Poppins;
+  background-size: 100% 100%;
+}
+.section-header {
+  /* background: url("./images/Layer_2.png"); */
+  margin: 0;
+}
+header img .img-responsive {
+  /* vertical-align: top; */
+  /* background: url("./images/Layer_2.png") no-repeat center center fixed; */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  /* background-size: cover; */
+  /* background-attachment: fixed;
+  background-position: center center; */
+}
+
+.menu a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+main {
+  height: 50%;
+  background-color: #a99494;
+}
+/* main {
+  height: 50%;
+  background-color: #ffffff;
+} */
+footer {
+  background-color: #000000;
+}
